@@ -1,0 +1,106 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/obj/base.obj" type="ArrayMesh" id=1]
+
+[node name="Base" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance19" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance20" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance24" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance5" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance7" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance22" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance8" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance9" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance17" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -5 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance18" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -5 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance10" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance11" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -5 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance12" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance13" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -5 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance25" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -5 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance14" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance23" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance15" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance16" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.00377, 0, 3 )
+mesh = ExtResource( 1 )
+
+[node name="MeshInstance21" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.00377, 0, 3 )
+mesh = ExtResource( 1 )

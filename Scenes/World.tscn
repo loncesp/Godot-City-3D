@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/CityGenerator.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/Camera.gd" type="Script" id=2]
+
+[node name="World" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 15, 0 )
+current = true
+fov = 75.0
+far = 125.0
+script = ExtResource( 2 )

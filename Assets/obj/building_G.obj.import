@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/building_G.obj-93b55ddce4921057c9b6e5200d5282eb.mesh"
+
+[deps]
+
+files=[ "res://.import/building_G.obj-93b55ddce4921057c9b6e5200d5282eb.mesh" ]
+
+source_file="res://Assets/obj/building_G.obj"
+dest_files=[ "res://.import/building_G.obj-93b55ddce4921057c9b6e5200d5282eb.mesh", "res://.import/building_G.obj-93b55ddce4921057c9b6e5200d5282eb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

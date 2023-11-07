@@ -1,0 +1,91 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Scenes/Buildings/Building A.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Buildings/Building G.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Buildings/Building C.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Buildings/Base.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/Buildings/Building H.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/Roads/RoadStraight.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/Buildings/Building F.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/Buildings/Building E.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Scenes/Buildings/Building D.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Scenes/Roads/RoadJunction.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Scenes/Buildings/Building B.tscn" type="PackedScene" id=11]
+
+[node name="District1" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1 )
+
+[node name="RoadJunction" parent="." instance=ExtResource( 10 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1 )
+
+[node name="RoadStraight" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -3 )
+
+[node name="RoadStraight5" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1 )
+
+[node name="RoadStraight6" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 3 )
+
+[node name="RoadStraight2" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -5 )
+
+[node name="RoadStraight3" parent="." instance=ExtResource( 6 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 1, 0, -1 )
+
+[node name="RoadStraight7" parent="." instance=ExtResource( 6 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, -3, 0, -1 )
+
+[node name="RoadStraight8" parent="." instance=ExtResource( 6 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, -5, 0, -1 )
+
+[node name="RoadStraight4" parent="." instance=ExtResource( 6 )]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 3, 0, -1 )
+
+[node name="Building B" parent="." instance=ExtResource( 11 )]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -3, 0, 1 )
+
+[node name="Building E" parent="." instance=ExtResource( 8 )]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -5, 0, 1 )
+
+[node name="Building G" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3, 0, 3 )
+
+[node name="Building A" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 3 )
+
+[node name="Building C" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -3 )
+
+[node name="Building F" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -3 )
+
+[node name="Building H" parent="." instance=ExtResource( 5 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3, 0, -5 )
+
+[node name="Building A2" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -5 )
+
+[node name="Building A3" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -5 )
+
+[node name="Building H2" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -3 )
+
+[node name="Building G2" parent="." instance=ExtResource( 2 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 0, -5 )
+
+[node name="Building A4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -3 )
+
+[node name="Building A5" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 3, 0, 1 )
+
+[node name="Building D" parent="." instance=ExtResource( 9 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 0, 1 )
+
+[node name="Building F2" parent="." instance=ExtResource( 7 )]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1, 0, 3 )
+
+[node name="Building A6" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 3 )
